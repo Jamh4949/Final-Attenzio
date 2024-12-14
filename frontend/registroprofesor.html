@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro Profesor</title>
+  <link rel="stylesheet" href="registroprofesor.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Attenzio</div>
+      <ul class="menu">
+        <li><a href="origen.html">Inicio</a></li>
+        <li><a href="servicio.html">Servicio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      
+    </nav>
+    <a href="registroprofesor.html" class="register-btn">Regístrate con nosotros →</a>
+  </header>
+
+  <main>
+    <h1>Registro</h1>
+    <div class="registro-form">
+      <h2>Attenzio</h2>
+      <form>
+        <div class="role-selection">
+            <label>
+              <input type="radio" name="role" value="profesor" checked>
+              Profesor
+            </label>
+            <label>
+              <input type="radio" name="role" value="estudiante" onclick="location.href='registroestudiantes.html'">
+              Estudiante
+            </label>
+          </div>          
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo" required>
+        <input type="password" placeholder="Contraseña" required>
+        <input type="text" placeholder="Dirección" required>
+        <input type="text" placeholder="Departamento" required>
+        <input type="text" placeholder="No de identificación" required>
+        <input type="text" placeholder="Código de profesor" required>
+        <input type="tel" placeholder="Número de celular" required>
+        <input type="text" placeholder="Código de clase" required>
+        <button type="button" onclick="location.href='paginaprof.html'">Registrar</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">Attenzio</div>
+      <div class="footer-links">
+        <div>
+          <h4>Compañía</h4>
+          <a href="#">Sobre nosotros</a>
+          <a href="contacto.html">Contact us</a>
+        </div>
+        <div>
+          <h4>Soporte</h4>
+          <a href="contacto.html">Contáctanos</a>
+          <a href="#">Términos del servicio</a>
+        </div>
+      </div>
+    </div>
+    <p>© 2024 Universidad del Valle. Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,134 @@
+/* General Reset */
+body, h1, h2, ul, li, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9a826;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .register-btn {
+    background-color: #f9a826;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
+  /* Main Section */
+  main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .registro-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registro-form h2 {
+    color: #f9a826;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #f9a826;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #e89a20;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo {
+    font-size: 18px;
+    color: #f9a826;
+  }
+  
+  .footer-links div {
+    text-align: left;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 5px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+  
